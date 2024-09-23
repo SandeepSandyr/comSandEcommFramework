@@ -14,7 +14,7 @@ import com.shoppoint.generic.objectrepository.productpage;
 import com.shoppoint.generic.webdriverutility.WebdriverUtility;
 import com.shoppoint.genericutility.Baseclass;
 
-public class PurchaseProductWithCODtest extends Baseclass{
+public class PurchaseProductWithCODTest extends Baseclass{
 	
 	@Test
 	public void cashOnDeliveryTest() throws Throwable {

@@ -12,7 +12,7 @@ import com.shoppoint.generic.objectrepository.productpage;
 import com.shoppoint.generic.webdriverutility.WebdriverUtility;
 import com.shoppoint.genericutility.Baseclass;
 
-public class AddProductToCarttest extends Baseclass{
+public class AddProductToCartTest extends Baseclass{
 	
 	@Test
 	public void addProductToCarttest() throws Throwable {

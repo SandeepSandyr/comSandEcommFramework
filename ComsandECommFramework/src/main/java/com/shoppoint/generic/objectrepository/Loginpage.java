@@ -18,7 +18,7 @@ public class Loginpage {
 	@FindBy(id="exampleInputPassword1")
 	private WebElement passtbx;
 	
-	@FindBy(xpath="//button[text()='Login']")
+	@FindBy(name = "login")
 	private WebElement lgbtn;
 	
 	

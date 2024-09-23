@@ -4,19 +4,19 @@
   <test name="Test1">
 	  <parameter name="BROWSER" value="edge"></parameter>
     <classes>
-      <class name="com.comsand.systemtest.PurchaseProductWithCODtest"/>
+      <class name="com.comsand.systemtest.PurchaseProductWithCODTest"/>
       <class name="com.comsand.integrationtest.ToCheckOrderHistoryTest"/>
       <class name="com.comsand.systemtest.TrackTheOrderTest"/>
-      <class name="com.comsand.smoketest.AddProductToCarttest"/>
+      <class name="com.comsand.smoketest.AddProductToCartTest"/>
     </classes>
   </test> <!-- Test -->
   <test name="Test2">
 	  <parameter name="BROWSER" value="chrome"></parameter>
     <classes>
-      <class name="com.comsand.systemtest.PurchaseProductWithCODtest"/>
+      <class name="com.comsand.systemtest.PurchaseProductWithCODTest"/>
       <class name="com.comsand.integrationtest.ToCheckOrderHistoryTest"/>
       <class name="com.comsand.systemtest.TrackTheOrderTest"/>
-      <class name="com.comsand.smoketest.AddProductToCarttest"/>
+      <class name="com.comsand.smoketest.AddProductToCartTest"/>
     </classes>
   </test> 
 </suite> <!-- Suite -->

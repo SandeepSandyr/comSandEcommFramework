@@ -3,10 +3,10 @@
 <suite thread-count="2" parallel="tests" name="Suite">
   <test thread-count="2" parallel="tests" name="Test1">
     <classes>
-      <class name="com.comsand.systemtest.PurchaseProductWithCODtest"/>
+      <class name="com.comsand.systemtest.PurchaseProductWithCODTest"/>
       <class name="com.comsand.integrationtest.ToCheckOrderHistoryTest"/>
       <class name="com.comsand.systemtest.TrackTheOrderTest"/>
-      <class name="com.comsand.smoketest.AddProductToCarttest"/>
+      <class name="com.comsand.smoketest.AddProductToCartTest"/>
     </classes>
   </test> <!-- Test -->
   <test thread-count="2" parallel="tests" name="Test2">

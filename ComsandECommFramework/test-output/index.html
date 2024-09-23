@@ -103,12 +103,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.comsand.smoketest.AddProductToCarttest" class="method navigator-link" hash-for-method="addProductToCarttest">addProductToCarttest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.comsand.smoketest.AddProductToCartTest" class="method navigator-link" hash-for-method="addProductToCarttest">addProductToCarttest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.comsand.systemtest.PurchaseProductWithCODtest" class="method navigator-link" hash-for-method="cashOnDeliveryTest">cashOnDeliveryTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.comsand.systemtest.PurchaseProductWithCODTest" class="method navigator-link" hash-for-method="cashOnDeliveryTest">cashOnDeliveryTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -176,7 +176,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.comsand.systemtest.PurchaseProductWithCODtest</span>
+              <span class="class-name">com.comsand.systemtest.PurchaseProductWithCODTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -251,7 +251,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.comsand.smoketest.AddProductToCarttest</span>
+              <span class="class-name">com.comsand.smoketest.AddProductToCartTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -305,10 +305,10 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.comsand.systemtest.PurchaseProductWithCODtest&quot;/&gt;
+      &lt;class name=&quot;com.comsand.systemtest.PurchaseProductWithCODTest&quot;/&gt;
       &lt;class name=&quot;com.comsand.integrationtest.ToCheckOrderHistoryTest&quot;/&gt;
       &lt;class name=&quot;com.comsand.systemtest.TrackTheOrderTest&quot;/&gt;
-      &lt;class name=&quot;com.comsand.smoketest.AddProductToCarttest&quot;/&gt;
+      &lt;class name=&quot;com.comsand.smoketest.AddProductToCartTest&quot;/&gt;
       &lt;class name=&quot;com.comsand.integrationtest.ShoppingMultipleProductsAtATimeTest&quot;/&gt;
       &lt;class name=&quot;com.comsand.integrationtest.UpdateProductInCartTest&quot;/&gt;
       &lt;class name=&quot;com.comsand.systemtest.RemoveProductFromCartTest&quot;/&gt;
@@ -355,46 +355,46 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'confirmOrdertest')
-data.setCell(0, 2, 'com.comsand.integrationtest.ToConfirmOrderTest')
-data.setCell(0, 3, 4896);
+data.setCell(0, 1, 'multipleProducttest')
+data.setCell(0, 2, 'com.comsand.integrationtest.ShoppingMultipleProductsAtATimeTest')
+data.setCell(0, 3, 4969);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'orderHistory')
-data.setCell(1, 2, 'com.comsand.integrationtest.ToCheckOrderHistoryTest')
-data.setCell(1, 3, 4543);
+data.setCell(1, 1, 'confirmOrdertest')
+data.setCell(1, 2, 'com.comsand.integrationtest.ToConfirmOrderTest')
+data.setCell(1, 3, 4954);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'multipleProducttest')
-data.setCell(2, 2, 'com.comsand.integrationtest.ShoppingMultipleProductsAtATimeTest')
-data.setCell(2, 3, 4518);
+data.setCell(2, 1, 'trackOrdertest')
+data.setCell(2, 2, 'com.comsand.systemtest.TrackTheOrderTest')
+data.setCell(2, 3, 3779);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'cashOnDeliveryTest')
-data.setCell(3, 2, 'com.comsand.systemtest.PurchaseProductWithCODtest')
-data.setCell(3, 3, 4009);
+data.setCell(3, 1, 'orderHistory')
+data.setCell(3, 2, 'com.comsand.integrationtest.ToCheckOrderHistoryTest')
+data.setCell(3, 3, 3695);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'trackOrdertest')
-data.setCell(4, 2, 'com.comsand.systemtest.TrackTheOrderTest')
-data.setCell(4, 3, 3922);
+data.setCell(4, 1, 'cashOnDeliveryTest')
+data.setCell(4, 2, 'com.comsand.systemtest.PurchaseProductWithCODTest')
+data.setCell(4, 3, 3690);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'updateProductInCarttest')
 data.setCell(5, 2, 'com.comsand.integrationtest.UpdateProductInCartTest')
-data.setCell(5, 3, 1896);
+data.setCell(5, 3, 1884);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'removeProductFromCrtTest')
 data.setCell(6, 2, 'com.comsand.systemtest.RemoveProductFromCartTest')
-data.setCell(6, 3, 1720);
+data.setCell(6, 3, 1761);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'addProductToCarttest')
-data.setCell(7, 2, 'com.comsand.smoketest.AddProductToCarttest')
-data.setCell(7, 3, 1676);
+data.setCell(7, 2, 'com.comsand.smoketest.AddProductToCartTest')
+data.setCell(7, 3, 1369);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'removeProductFromWishlsttest')
 data.setCell(8, 2, 'com.comsand.systemtest.RemoveProductFromWishlistTest')
-data.setCell(8, 3, 1320);
+data.setCell(8, 3, 1365);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -420,210 +420,210 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.comsand.systemtest.PurchaseProductWithCODtest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.comsand.systemtest.PurchaseProductWithCODTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">2703 ms</span>
+                <span class="method-start">2694 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">cashOnDeliveryTest</span>
-                <span class="method-start">3668 ms</span>
+                <span class="method-start">3749 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">7693 ms</span>
+                <span class="method-start">7444 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">7891 ms</span>
+                <span class="method-start">7615 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.comsand.integrationtest.ToCheckOrderHistoryTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass</span>
-                <span class="method-start">8154 ms</span>
+                <span class="method-start">7840 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">10533 ms</span>
+                <span class="method-start">10139 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">orderHistory</span>
-                <span class="method-start">11739 ms</span>
+                <span class="method-start">11091 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">16282 ms</span>
+                <span class="method-start">14788 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">16496 ms</span>
+                <span class="method-start">14988 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.comsand.systemtest.TrackTheOrderTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass</span>
-                <span class="method-start">16708 ms</span>
+                <span class="method-start">15202 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">18984 ms</span>
+                <span class="method-start">17716 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">trackOrdertest</span>
-                <span class="method-start">20010 ms</span>
+                <span class="method-start">18459 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">23935 ms</span>
+                <span class="method-start">22240 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">24167 ms</span>
+                <span class="method-start">22448 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.comsand.smoketest.AddProductToCarttest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.comsand.smoketest.AddProductToCartTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass</span>
-                <span class="method-start">24431 ms</span>
+                <span class="method-start">22710 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">26813 ms</span>
+                <span class="method-start">25206 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addProductToCarttest</span>
-                <span class="method-start">27521 ms</span>
+                <span class="method-start">26111 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">29198 ms</span>
+                <span class="method-start">27482 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">29416 ms</span>
+                <span class="method-start">27666 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.comsand.integrationtest.ShoppingMultipleProductsAtATimeTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass</span>
-                <span class="method-start">29630 ms</span>
+                <span class="method-start">27886 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">32760 ms</span>
+                <span class="method-start">30576 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">multipleProducttest</span>
-                <span class="method-start">33808 ms</span>
+                <span class="method-start">31475 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">38327 ms</span>
+                <span class="method-start">36445 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">38491 ms</span>
+                <span class="method-start">36597 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.comsand.integrationtest.UpdateProductInCartTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass</span>
-                <span class="method-start">38690 ms</span>
+                <span class="method-start">36809 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">41009 ms</span>
+                <span class="method-start">39181 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">updateProductInCarttest</span>
-                <span class="method-start">41820 ms</span>
+                <span class="method-start">39943 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">43718 ms</span>
+                <span class="method-start">41828 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">43916 ms</span>
+                <span class="method-start">42013 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.comsand.systemtest.RemoveProductFromCartTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass</span>
-                <span class="method-start">44186 ms</span>
+                <span class="method-start">42235 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">46759 ms</span>
+                <span class="method-start">44927 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">removeProductFromCrtTest</span>
-                <span class="method-start">47530 ms</span>
+                <span class="method-start">45757 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">49251 ms</span>
+                <span class="method-start">47520 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">49454 ms</span>
+                <span class="method-start">47712 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.comsand.integrationtest.ToConfirmOrderTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass</span>
-                <span class="method-start">49676 ms</span>
+                <span class="method-start">47950 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">52104 ms</span>
+                <span class="method-start">50622 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">confirmOrdertest</span>
-                <span class="method-start">53298 ms</span>
+                <span class="method-start">51414 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">58194 ms</span>
+                <span class="method-start">56369 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">58340 ms</span>
+                <span class="method-start">56535 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.comsand.systemtest.RemoveProductFromWishlistTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass</span>
-                <span class="method-start">58620 ms</span>
+                <span class="method-start">56773 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">60902 ms</span>
+                <span class="method-start">59239 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">removeProductFromWishlsttest</span>
-                <span class="method-start">62000 ms</span>
+                <span class="method-start">60340 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">63320 ms</span>
+                <span class="method-start">61706 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">63663 ms</span>
+                <span class="method-start">62017 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

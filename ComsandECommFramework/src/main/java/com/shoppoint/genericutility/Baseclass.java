@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -65,6 +66,8 @@ public class Baseclass {
 		Loginpage lp = new Loginpage(driver);
 		lp.getEmailtbx().sendKeys(email);
 		lp.getPasstbx().sendKeys(password);
+		Actions act = new Actions(driver);
+		act.scrollByAmount(0, 200);
 		lp.getLgbtn().click();
 
 	}

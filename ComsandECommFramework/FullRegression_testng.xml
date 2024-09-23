@@ -3,10 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.comsand.systemtest.PurchaseProductWithCODtest"/>
+      <class name="com.comsand.systemtest.PurchaseProductWithCODTest"/>
       <class name="com.comsand.integrationtest.ToCheckOrderHistoryTest"/>
       <class name="com.comsand.systemtest.TrackTheOrderTest"/>
-      <class name="com.comsand.smoketest.AddProductToCarttest"/>
+      <class name="com.comsand.smoketest.AddProductToCartTest"/>
       <class name="com.comsand.integrationtest.ShoppingMultipleProductsAtATimeTest"/>
       <class name="com.comsand.integrationtest.UpdateProductInCartTest"/>
       <class name="com.comsand.systemtest.RemoveProductFromCartTest"/>

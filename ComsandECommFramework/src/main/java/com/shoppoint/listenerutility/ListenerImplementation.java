@@ -21,7 +21,8 @@ import com.shoppoint.generic.webdriverutility.Utilityclassobject;
 import com.shoppoint.genericutility.Baseclass;
 
 public class ListenerImplementation implements ITestListener,ISuiteListener{
-	public ExtentReports report;
+	public ExtentSparkReporter spark;
+	public static ExtentReports report;
 	public static ExtentTest test;
 
 	@Override

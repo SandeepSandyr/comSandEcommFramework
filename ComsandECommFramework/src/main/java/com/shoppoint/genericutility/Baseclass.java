@@ -12,6 +12,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Parameters;
 
 import com.shoppoint.generic.Fileutility.ExcelUtility;
 import com.shoppoint.generic.Fileutility.FileUtility;
@@ -28,8 +29,11 @@ public class Baseclass {
 	public WebDriver driver = null;
 	public static WebDriver sdriver = null;
 
+	@Parameters("BROWSER")
 	@BeforeClass
-	public void beforeclass() throws IOException {
+	public void beforeclass(/*String BROWSER*/) throws IOException {
+		
+		//String browser = BROWSER;
 		String browser = fLib.getDataFromPropertyFile("browser");
 		String url = fLib.getDataFromPropertyFile("url");
 

@@ -1,4 +1,4 @@
-package com.comsand.bugtest;
+package com.comsand.bug;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
@@ -17,7 +17,7 @@ import com.shoppoint.generic.objectrepository.productpage;
 import com.shoppoint.generic.webdriverutility.WebdriverUtility;
 import com.shoppoint.genericutility.Baseclass;
 
-public class DefectTest extends Baseclass{
+public class Defect extends Baseclass{
 	
 	@Test
 	public void bugtest() throws Throwable {

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.comsand.systemtest.PurchaseProductWithCODtest"/>
+      <class name="com.comsand.integrationtest.ToCheckOrderHistoryTest"/>
+      <class name="com.comsand.systemtest.TrackTheOrderTest"/>
+      <class name="com.comsand.smoketest.AddProductToCarttest"/>
+      <class name="com.comsand.integrationtest.ShoppingMultipleProductsAtATimeTest"/>
+      <class name="com.comsand.integrationtest.UpdateProductInCartTest"/>
+      <class name="com.comsand.systemtest.RemoveProductFromCartTest"/>
+      <class name="com.comsand.integrationtest.ToConfirmOrderTest"/>
+      <class name="com.comsand.systemtest.RemoveProductFromWishlistTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

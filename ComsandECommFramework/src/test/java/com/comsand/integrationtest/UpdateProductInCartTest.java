@@ -30,7 +30,7 @@ public class UpdateProductInCartTest extends Baseclass{
 		bp.getComicslink().click();
 	
 		Actions act = new Actions(driver);
-		act.scrollByAmount(0, 200).perform();
+		act.scrollByAmount(0, 500).perform();
 		
 		driver.findElement(By.xpath("//a[text()='"+data+"']")).click();
 		

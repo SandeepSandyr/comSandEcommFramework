@@ -38,7 +38,7 @@ public class ShoppingMultipleProductsAtATimeTest extends Baseclass{
 		bp.getComicslink().click();
 	
 		Actions act = new Actions(driver);
-		act.scrollByAmount(0, 200).perform();
+		act.scrollByAmount(0, 500).perform();
 	
 		driver.findElement(By.xpath("//a[text()='"+data+"']")).click();
 		
@@ -57,7 +57,7 @@ public class ShoppingMultipleProductsAtATimeTest extends Baseclass{
 		ep.getMobileslinks().click();
 		
 		Actions act1 = new Actions(driver);
-		act1.scrollByAmount(0, 200).perform();
+		act1.scrollByAmount(0, 500).perform();
 		
 		driver.findElement(By.xpath("//a[text()='"+product2+"']")).click();
 		pp.getAddtocartlink().click();

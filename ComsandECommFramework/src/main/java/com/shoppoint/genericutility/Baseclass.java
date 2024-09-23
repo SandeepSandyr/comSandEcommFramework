@@ -67,7 +67,7 @@ public class Baseclass {
 		lp.getEmailtbx().sendKeys(email);
 		lp.getPasstbx().sendKeys(password);
 		Actions act = new Actions(driver);
-		act.scrollByAmount(0, 200);
+		act.scrollByAmount(0, 200).perform();
 		lp.getLgbtn().click();
 
 	}
